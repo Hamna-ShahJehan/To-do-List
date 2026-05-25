@@ -1,0 +1,157 @@
+/* <i class="fa-regular fa-clipboard"></i> */
+/* <i class="fa-solid fa-trash-can"></i> Clear All */
+/* <div class="input-label"><i class="fa-solid fa-pencil"></i>Add your items here </div> */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.card {
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    border-radius: 20px;
+
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+
+.container h1 {
+    font-size: 40px;
+}
+
+.container>p:first-of-type {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#inner {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    gap: 20px;
+}
+
+.input input {
+    flex: 1;
+    border: 1px solid gray;
+    border-radius: 13px;
+    padding: 10px 10px;
+
+}
+
+.input button {
+    background-color: #3a59e0;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.input button:hover {
+    background-color: white;
+    color: #3a59e0;
+    border: 2px solid #3a59e0;
+    font-weight: italic;
+}
+
+.items {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.items h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.items ul li {
+    background-color: #e2e8f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.items ul li button {
+    border: none;
+    padding: 3px;
+    background-color: #e2e8f2;
+}
+
+
+li>div:first-of-type {
+    display: flex;
+    gap: 12px;
+}
+
+i .fa-check:hover {
+    color: green;
+}
+
+.clearAll {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.clearAll:hover {
+    color: #c91414;
+    border: 1px solid#c91414;
+    /* background-color: #ec6a6a; */
+}
+
+i .trash-can:hover {
+    color: red;
+}
+
+i.fa-trash {
+    color: red;
+    cursor: pointer;
+}
+
+i.fa-check {
+    color: green;
+    cursor: pointer;
+}
+
+/* i.fa-trash:hover {
+    color: white;
+    background-color: red;
+}
+
+i.fa-check:hover {
+    color: white;
+    background-color: darkgreen;
+} */
